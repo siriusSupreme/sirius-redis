@@ -105,7 +105,7 @@ class RedisManager implements Factory
     /**
      * Get the connector instance for the current driver.
      *
-     * @return \Illuminate\Redis\Connectors\PhpRedisConnector|\Illuminate\Redis\Connectors\PredisConnector
+     * @return \Sirius\Redis\Connectors\PhpRedisConnector|\Sirius\Redis\Connectors\PredisConnector
      */
     protected function connector()
     {
